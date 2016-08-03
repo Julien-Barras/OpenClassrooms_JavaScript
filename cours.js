@@ -1,11 +1,11 @@
-/* Un commentaire 
-sur plusieurs
-lignes */
- 
-// Un commentaire sur une seule ligne
+var stylo = {
+    type: "bille",
+    couleur: "bleu",
+    marque: "Bic"
+};
 
-console.log("Bonjour en JavaScript !");
-console.log("Faisons quelques calculs.");
-console.log(4 + 7);
-console.log(12 / 0);
-console.log("Au revoir !");
+console.log("Mon stylo à " + stylo.type + " " + stylo.marque + " écrit en " + stylo.couleur);
+
+stylo.prix = 2.5; // Ajout de la propriété prix à l'objet stylo
+
+console.log("Il coûte " + stylo.prix + " euros");
